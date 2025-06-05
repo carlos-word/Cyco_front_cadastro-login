@@ -133,12 +133,14 @@ label {
     align-items: center;
   }
   .cadastro-image {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 1rem;
-  }
-  .cadastro-container {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
+  flex: 0 0 25%;
+  max-width: 250px;
+  box-sizing: border-box;
+}
+
+.cadastro-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 }
