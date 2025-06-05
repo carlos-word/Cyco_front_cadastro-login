@@ -16,9 +16,16 @@
       </div>
 
       <div id="endereco-container" class="endereco-hidden">
-        <div class="form-group">
-          <label for="cep">CEP</label>
-          <input type="text" id="cep" name="cep" class="form-input">
+        <div class="form-row">
+          <div class="form-col">
+            <label for="cep">CEP</label>
+            <input type="text" id="cep" name="cep" class="form-input">
+          </div>
+
+          <div class="form-col">
+            <label for="numero">Número</label>
+            <input type="text" id="numero" name="numero" class="form-input">
+          </div>
         </div>
 
         <div class="form-group">
@@ -26,19 +33,16 @@
           <input type="text" id="endereco" name="endereco" class="form-input">
         </div>
 
-        <div class="form-group">
-          <label for="numero">Número</label>
-          <input type="text" id="numero" name="numero" class="form-input">
-        </div>
+        <div class="form-row">
+          <div class="form-col">
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" name="bairro" class="form-input">
+          </div>
 
-        <div class="form-group">
-          <label for="bairro">Bairro</label>
-          <input type="text" id="bairro" name="bairro" class="form-input">
-        </div>
-
-        <div class="form-group">
-          <label for="cidade">Cidade</label>
-          <input type="text" id="cidade" name="cidade" class="form-input">
+          <div class="form-col">
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade" class="form-input">
+          </div>
         </div>
 
         <div class="form-group">
@@ -47,24 +51,28 @@
         </div>
       </div>
 
-      <div class="form-group">
-        <label for="nascimento">Data de Nascimento</label>
-        <input type="date" id="nascimento" name="nascimento" required class="form-input">
+      <div class="form-row">
+        <div class="form-col">
+          <label for="nascimento">Data de Nascimento</label>
+          <input type="date" id="nascimento" name="nascimento" required class="form-input">
+        </div>
+
+        <div class="form-col">
+          <label for="documento">CPF ou CNPJ</label>
+          <input type="text" id="documento" name="documento" required class="form-input">
+        </div>
       </div>
 
-      <div class="form-group">
-        <label for="documento">CPF ou CNPJ</label>
-        <input type="text" id="documento" name="documento" required class="form-input">
-      </div>
+      <div class="form-row">
+        <div class="form-col">
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" name="telefone" required class="form-input">
+        </div>
 
-      <div class="form-group">
-        <label for="telefone">Telefone</label>
-        <input type="tel" id="telefone" name="telefone" required class="form-input">
-      </div>
-
-      <div class="form-group">
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" required class="form-input">
+        <div class="form-col">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required class="form-input">
+        </div>
       </div>
 
       <div class="form-group">
@@ -80,3 +88,4 @@
     </p>
   </div>
 </section>
+
