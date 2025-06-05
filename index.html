@@ -1,38 +1,46 @@
-<section class="min-h-screen flex items-center justify-center bg-green-200">
-  <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
-    <h2 class="text-2xl font-bold mb-6 text-center">Entrar</h2>
-    
-    <form>
-      <div class="mb-4">
-        <label for="tipo" class="block text-gray-700 font-medium mb-2">Tipo de Usuário</label>
-        <select id="tipo" name="tipo" class="w-full p-2 border rounded">
-          <option value="catador">Catador</option>
-          <option value="gerador">Gerador</option>
-        </select>
-      </div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Entrar</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <section class="login-section">
+    <div class="login-container">
+      <h2 class="login-title">Entrar</h2>
 
-      <div class="mb-4">
-        <label for="email" class="block text-gray-700 font-medium mb-2">E-mail</label>
-        <input type="email" id="email" name="email" required class="w-full p-2 border rounded">
-      </div>
+      <form>
+        <div class="form-group">
+          <label for="tipo">Tipo de Usuário</label>
+          <select id="tipo" name="tipo" class="form-input">
+            <option value="catador">Catador</option>
+            <option value="gerador">Gerador</option>
+          </select>
+        </div>
 
-      <div class="mb-2">
-        <label for="senha" class="block text-gray-700 font-medium mb-2">Senha</label>
-        <input type="password" id="senha" name="senha" required class="w-full p-2 border rounded">
-      </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required class="form-input">
+        </div>
 
-      <div class="mb-4 text-right">
-        <a href="#" class="text-sm text-green-600 hover:underline">Esqueci a senha</a>
-      </div>
+        <div class="form-group">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" name="senha" required class="form-input">
+        </div>
 
-      <button type="submit" class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700">
-        Entrar
-      </button>
-    </form>
+        <div class="text-right">
+          <a href="#" class="forgot-link">Esqueci a senha</a>
+        </div>
 
-    <p class="mt-4 text-center text-sm">
-      Ainda não tem uma conta?
-      <a href="cadastro.html" class="text-green-600 hover:underline">Cadastre-se</a>
-    </p>
-  </div>
-</section>
+        <button type="submit" class="submit-btn">Entrar</button>
+      </form>
+
+      <p class="register-text">
+        Ainda não tem uma conta?
+        <a href="cadastro.html" class="register-link">Cadastre-se</a>
+      </p>
+    </div>
+  </section>
+</body>
+</html>
