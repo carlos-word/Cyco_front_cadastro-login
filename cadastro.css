@@ -27,16 +27,19 @@ body, html {
 
 
 .cadastro-image {
-  flex: 0 0 40%;               
-  max-width: 400px;           
-  box-sizing: border-box;
+  flex: 1;
+  min-width: 300px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
 }
 
 .cadastro-image img {
-  display: block;
   width: 100%;
   height: auto;
-  object-fit: contain;
+  display: block;
 }
 
 
