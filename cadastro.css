@@ -78,11 +78,6 @@ label {
   box-sizing: border-box;
 }
 
-.endereco-hidden {
-  display: none;
-}
-
-
 .form-row {
   display: flex;
   gap: 1rem;
