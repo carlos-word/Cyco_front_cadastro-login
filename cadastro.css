@@ -1,36 +1,35 @@
-/* ===== Estilos Gerais (já existentes) ===== */
+
 body, html {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
 }
 
-/* ===== Seção de Cadastro ===== */
+
 .cadastro-section {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f3f4f6; /* cinza-claro */
+  background-color: #f3f4f6; 
 }
 
-/* Wrapper que contém tanto a imagem quanto o formulário */
 .cadastro-wrapper {
   display: flex;
-  align-items: flex-start;   /* Alinha pelo topo */
+  align-items: flex-start;   
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
-  flex-wrap: wrap;            /* Empilha em telas pequenas */
+  flex-wrap: wrap;           
   width: 100%;
-  max-width: 1200px;          /* Limita largura total do wrapper */
+  max-width: 1200px;         
   box-sizing: border-box;
 }
 
-/* ===== Bloco da Imagem ===== */
+
 .cadastro-image {
-  flex: 0 0 40%;               /* Não cresce, ocupa até 40% do wrapper */
-  max-width: 400px;            /* Não passe de 400px de largura */
+  flex: 0 0 40%;               
+  max-width: 400px;           
   box-sizing: border-box;
 }
 
@@ -41,10 +40,10 @@ body, html {
   object-fit: contain;
 }
 
-/* ===== Bloco do Formulário ===== */
+
 .cadastro-container {
-  flex: 1 1 50%;               /* Pode crescer, no mínimo ocupa 50% */
-  max-width: 500px;            /* Limita largura máxima do formulário */
+  flex: 1 1 50%;             
+  max-width: 500px;          
   background-color: white;
   padding: 2rem;
   border-radius: 8px;
@@ -52,7 +51,7 @@ body, html {
   box-sizing: border-box;
 }
 
-/* ===== Título ===== */
+
 .cadastro-title {
   font-size: 1.5rem;
   font-weight: bold;
@@ -60,7 +59,7 @@ body, html {
   text-align: center;
 }
 
-/* ===== Inputs e Labels ===== */
+
 .form-group {
   margin-bottom: 1rem;
 }
@@ -84,7 +83,7 @@ label {
   display: none;
 }
 
-/* ===== Layout Flexível para Pares de Campos ===== */
+
 .form-row {
   display: flex;
   gap: 1rem;
@@ -97,7 +96,7 @@ label {
   min-width: 150px;
 }
 
-/* ===== Botão ===== */
+
 .submit-btn {
   width: 100%;
   background-color: #16a34a;
@@ -128,7 +127,6 @@ label {
   text-decoration: underline;
 }
 
-/* ===== Quebra para Telas Pequenas ===== */
 @media (max-width: 768px) {
   .cadastro-wrapper {
     flex-direction: column;
