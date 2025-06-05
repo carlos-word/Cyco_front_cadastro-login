@@ -1,6 +1,7 @@
-<section class="min-h-screen flex items-center justify-center bg-gray-100">
+<section class="min-h-screen flex items-center justify-center bg-green-200">
   <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
-    <h2 class="text-2xl font-bold mb-6 text-center">Login</h2>
+    <h2 class="text-2xl font-bold mb-6 text-center">Entrar</h2>
+    
     <form>
       <div class="mb-4">
         <label for="tipo" class="block text-gray-700 font-medium mb-2">Tipo de Usuário</label>
@@ -15,9 +16,13 @@
         <input type="email" id="email" name="email" required class="w-full p-2 border rounded">
       </div>
 
-      <div class="mb-6">
+      <div class="mb-2">
         <label for="senha" class="block text-gray-700 font-medium mb-2">Senha</label>
         <input type="password" id="senha" name="senha" required class="w-full p-2 border rounded">
+      </div>
+
+      <div class="mb-4 text-right">
+        <a href="#" class="text-sm text-green-600 hover:underline">Esqueci a senha</a>
       </div>
 
       <button type="submit" class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700">
@@ -26,7 +31,8 @@
     </form>
 
     <p class="mt-4 text-center text-sm">
-      Ainda não tem uma conta? <a href="cadastro.html" class="text-green-600 hover:underline">Cadastre-se</a>
+      Ainda não tem uma conta?
+      <a href="cadastro.html" class="text-green-600 hover:underline">Cadastre-se</a>
     </p>
   </div>
 </section>
