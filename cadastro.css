@@ -1,10 +1,9 @@
-/* ===== Estilo da Seção de Cadastro ===== */
 .cadastro-section {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f3f4f6; /* cinza-claro */
+  background-color: #f3f4f6; 
 }
 
 .cadastro-container {
@@ -13,7 +12,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 800px; /* antes era 500px */
+  max-width: 800px; 
 }
 
 .cadastro-title {
@@ -23,10 +22,9 @@
   text-align: center;
 }
 
-/* ===== Estilos dos Campos ===== */
 .form-section-title {
   font-weight: bold;
-  color: #f472b6; /* rosa */
+  color: #f472b6; 
   margin: 1rem 0 0.5rem;
 }
 
@@ -48,7 +46,6 @@ label {
   border-radius: 4px;
 }
 
-/* ===== Layout Flexível ===== */
 .form-row {
   display: flex;
   gap: 1rem;
@@ -65,7 +62,6 @@ label {
   display: none;
 }
 
-/* ===== Botões e Links ===== */
 .submit-btn {
   width: 100%;
   background-color: #16a34a;
