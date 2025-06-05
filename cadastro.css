@@ -27,20 +27,17 @@ body, html {
 
 
 .cadastro-image {
-  flex: 1;
-  min-width: 300px;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
+  flex: 0 0 40%;               
+  max-width: 400px;           
+  box-sizing: border-box;
 }
 
 .cadastro-image img {
+  display: block;
   width: 100%;
   height: auto;
-  display: block;
-}
+  object-fit: contain;
+} 
 
 
 .cadastro-container {
