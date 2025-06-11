@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+
+<head>
   <meta charset="UTF-8">
   <title>Entrar</title>
-  <link rel="stylesheet" href="login.css">
- <link rel="stylesheet" href="cadastro.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/cadastro.css">
+  <script src="./js/login.js" type="module" defer></script>
 </head>
+
 <body>
   <section class="login-section">
     <div class="login-container">
-       <div class="cadastro-image">
-      <img src="https://meiosustentavel.com.br/wp-content/uploads/2020/08/eco-3516734_1920.png" alt="Ilustração de cadastro">
-    </div>
+      <div class="cadastro-image">
+        <img src="https://meiosustentavel.com.br/wp-content/uploads/2020/08/eco-3516734_1920.png"
+          alt="Ilustração de cadastro">
+      </div>
       <h2 class="login-title">Entrar</h2>
-      
+
+      <form id="loginForm"> <!-- Adicionei a tag form aqui -->
         <div class="form-group">
           <label for="email">E-mail</label>
           <input type="email" id="email" name="email" required class="form-input">
@@ -38,4 +43,5 @@
     </div>
   </section>
 </body>
+
 </html>
